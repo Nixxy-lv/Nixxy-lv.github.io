@@ -21,7 +21,7 @@
 <h2 align="center">How was this made?</h2>
 <p align="center">The website was made with html amd many css (don't worry, it's optimized on mobile)</p>
 
-## Star History
+<h2 align="center">Star History</h2>
 
 <a href="https://www.star-history.com/?repos=nixxy-lv/nixxy-lv.github.io&type=date&legend=top-left">
   <picture>
