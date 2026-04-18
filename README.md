@@ -20,3 +20,15 @@
 
 <h2 align="center">How was this made?</h2>
 <p align="center">The website was made with html amd many css (don't worry, it's optimized on mobile)</p>
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=nixxy-lv/nixxy-lv.github.io&type=date&legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nixxy-lv/nixxy-lv.github.io&type=date&theme=dark&legend=top-left" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=nixxy-lv/nixxy-lv.github.io&type=date&legend=top-left" />
+    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=nixxy-lv/nixxy-lv.github.io&type=date&legend=top-left" />
+  </picture>
+</a>
+
+<!-- nixxy-lv.github.io -->
