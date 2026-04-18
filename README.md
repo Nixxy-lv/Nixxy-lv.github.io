@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/My-Webpage-blueviolet?style=for-the-badge">
 <br>
 <a href="mailto:nixdev888@gmail.com">
-    <img src="https://img.shields.io/badge/Contact-Me-white?style=for-the-badge&logo=gmail&logoColor=white" style="border:0;">
+    <img src="https://img.shields.io/badge/Contact-Me-white?style=for-the-badge&logo=gmail&logoColor=white" style="display:block;">
   </a>
 <a href="https://nixxy-lv.github.io/">
     <img src="https://img.shields.io/badge/The-Webpage→-blueviolet?style=for-the-badge&logo=html5&logoColor=white">
