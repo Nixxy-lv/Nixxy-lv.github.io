@@ -17,7 +17,7 @@
 <p align="center">This page is an attempt at trying to make a website anyone can access(as all my other websites are only accessible to me)</p>
 
 <h2 align="center">How was this made?</h2>
-<p align="center">The website was made with html amd many css (don't worry, it's optimized on mobile)</p>
+<p align="center">The website was made with html, a bit of JavaScript and much css (don't worry, it's optimized on mobile)</p>
 
 <h2 align="center">Star History</h2>
 
