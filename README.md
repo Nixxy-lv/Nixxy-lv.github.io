@@ -1,5 +1,6 @@
 <h1 align="center">MY-WEBSITE</h1>
 <p align="center">My personal website</h2>
+<br>
 
 <a href="mailto:nixdev888@gmail.com">
     <img src="https://img.shields.io/badge/Contact-Me-white?style=plastic&logo=gmail&logoColor=white">
