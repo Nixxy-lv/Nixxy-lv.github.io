@@ -170,6 +170,18 @@ footer {
   color: #f0f;
 }
 
+/* Theme Switch button */
+.themeBtn {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
 /* Mobile optimization */
 @media (max-width: 768px) {
   * {
