@@ -14,7 +14,7 @@
 <p align="center">This a website i made containing info about who i am</p>
 
 <h2 align="center">Why does this page exist?</h2>
-<p align="center">This page is an attempt ar trying to make a website anyone can access(as all my other websites are only accessible to me)</p>
+<p align="center">This page is an attempt at trying to make a website anyone can access(as all my other websites are only accessible to me)</p>
 
 <h2 align="center">How was this made?</h2>
 <p align="center">The website was made with html amd many css (don't worry, it's optimized on mobile)</p>
