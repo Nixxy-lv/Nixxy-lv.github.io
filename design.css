@@ -196,9 +196,39 @@ footer {
   color: #f0f;
 }
 
+/* ==== SETTINGS ==== */
+.sets {
+  text-align: center;
+  padding: 20px;
+  background: var(--box);
+  border-radius: 30px 30px 30px 30px;
+
+  transform-origin: center;
+  transition: transform 0.3s ease;
+
+  box-shadow: 
+    0 0 5px #0ff,
+    0 0 10px #f0f,
+    0 0 20px #0ff;
+}
+
+
+.sets h2 {
+  color: #fff;
+
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 30px #f0f,
+    0 0 60px #f0f;
+  
+  animation: flicker 2.5s infinite;
+}
+
 /* ===== THEME BUTTON ===== */
 .themeBtn {
-  background: #222;
+  background: var(--box);
   color: white;
   border: none;
   padding: 12px 20px;
@@ -206,6 +236,11 @@ footer {
   cursor: pointer;
   font-size: 16px;
   transition: 0.2s;
+  
+  box-shadow:
+	0 0 3px #0ff,
+	0 0 7px #f0f,
+	0 0 12px #0ff;
 }
 
 /* ===== MOBILE ===== */
