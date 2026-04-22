@@ -1,25 +1,50 @@
+:root {
+  --bg: #0a0a0a;
+  --text: white;
+  --box: #111;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #0a0a0a;
-  color: white;
+  background: var(--bg);
+  color: var(--text);
 }
-/* ===== Light Mode ===== */
-#theme:checked ~ body {
-    background: #f5f5f5;
+
+.page {
+  background: transparent;
+  color: inherit;
+}
+
+body.light {
+  --bg: #f5f5f5;
+  --text: black;
+  --box: #ddd;
+}
+
+/* ===== BASE ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* ==== hide checkbox ==== */
+#theme {
+  display: none;
 }
 
 /* ===== HEADER ===== */
 header {
   text-align: center;
   padding: 50px;
-  background: #111;
+  background: var(--box);
   border-radius: 0 0 30px 30px;
 
   transform-origin: top;
   transition: transform 0.3s ease;
 
-  /* dual neon glow */
   box-shadow: 
     0 0 10px #0ff,
     0 0 20px #f0f,
@@ -56,10 +81,10 @@ section {
   padding: 20px;
   margin: 15px 0;
 
-  /* gradient border illusion */
   border: 1px solid transparent;
+
   background: 
-    linear-gradient(#111, #111) padding-box,
+    linear-gradient(var(--box), var(--box)) padding-box,
     linear-gradient(45deg, #0ff, #f0f) border-box;
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -67,11 +92,10 @@ section {
   box-shadow:
     0 0 5px #0ff,
     0 0 10px #f0f inset;
-  
+
   animation: neonPulse 3s infinite, flicker 6s infinite;
 }
 
-/* hover = stronger neon */
 .project-box:hover {
   transform: scale(1.05);
 
@@ -82,7 +106,7 @@ section {
     0 0 80px #f0f;
 }
 
-/* ===== NEON PULSE ANIMATION ===== */
+/* ===== NEON PULSE ===== */
 @keyframes neonPulse {
   0% {
     box-shadow: 0 0 5px #0ff, 0 0 10px #f0f;
@@ -95,20 +119,17 @@ section {
   }
 }
 
-/* apply subtle animation */
-.project-box {
-  animation: neonPulse 3s infinite, flicker 6s infinite;
-}
-
 /* ===== FOOTER ===== */
 footer {
   text-align: center;
   padding: 20px;
   margin-top: 20px;
 
+  background: var(--box);
+
   border-top: 1px solid transparent;
   background: 
-    linear-gradient(#0a0a0a, #0a0a0a) padding-box,
+    linear-gradient(var(--footer), var(--footer)) padding-box,
     linear-gradient(90deg, #0ff, #f0f) border-box;
 
   box-shadow:
@@ -116,6 +137,7 @@ footer {
     0 0 20px #f0f inset;
 }
 
+/* ===== FLICKER ===== */
 @keyframes flicker {
   0%, 18%, 22%, 25%, 53%, 57%, 100% {
     opacity: 1;
@@ -136,14 +158,14 @@ footer {
     opacity: 0.8;
   }
 }
+
+/* ===== PIZZA ===== */
 .pizza {
   display: block;
   margin: 20px auto;
   text-align: center;
   font-size: 50px;
-  margin-top: 10px;
 
-  /* neon glow */
   text-shadow:
     0 0 5px #ff3,
     0 0 10px #ff8800,
@@ -157,15 +179,15 @@ footer {
   0%, 19%, 21%, 23%, 80%, 100% {
     opacity: 1;
   }
-
   20%, 22% {
     opacity: 0.3;
   }
-
   50% {
     opacity: 0.7;
   }
 }
+
+/* ===== LINKS ===== */
 .project-link {
   color: #0ff;
 }
@@ -174,7 +196,7 @@ footer {
   color: #f0f;
 }
 
-/* Theme Switch button */
+/* ===== THEME BUTTON ===== */
 .themeBtn {
   background: #222;
   color: white;
@@ -186,7 +208,7 @@ footer {
   transition: 0.2s;
 }
 
-/* Mobile optimization */
+/* ===== MOBILE ===== */
 @media (max-width: 768px) {
   * {
     animation: none !important;
