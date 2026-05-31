@@ -19,11 +19,6 @@ body {
   min-height: 100vh;
 }
 
-/* PAGE WRAPPER */
-.page {
-  padding: 20px;
-}
-
 /* HEADER */
 header {
   text-align: center;
